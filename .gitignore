@@ -1,0 +1,29 @@
+# Local environment and credentials
+.venv/
+.env
+.env.*
+!.env.example
+
+# Python and tools
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ruff_cache/
+.ipynb_checkpoints/
+build/
+dist/
+
+# Dataset archives and generated artifacts
+data/**
+!data/README.md
+!data/raw/
+!data/processed/
+!data/queries/
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/queries/.gitkeep
+outputs/
+
+# macOS
+.DS_Store
