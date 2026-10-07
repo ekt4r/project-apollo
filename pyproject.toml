@@ -16,6 +16,7 @@ dependencies = [
     "soundfile>=0.13,<1",
     "jupyterlab>=4.3,<5",
     "ipykernel>=6.29,<8",
+    "seaborn>=0.13.2",
 ]
 
 [dependency-groups]
